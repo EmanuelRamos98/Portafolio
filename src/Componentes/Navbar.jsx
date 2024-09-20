@@ -20,7 +20,10 @@ const Navbar = () => {
         <div className='container_navbar'>
             {mostrar ? (
                 <>
-                    <span>Emanuel Ramos</span>
+                    <span className='container_logo'>
+                        <img src="public/logo.png" alt="logo" className='logo' />
+                        Emanuel Ramos
+                    </span>
                     <div className='links'>
                         <LinkInterno to='projectos'>Projectos</LinkInterno>
                         <LinkInterno to='about'>Sobre Mi</LinkInterno>
