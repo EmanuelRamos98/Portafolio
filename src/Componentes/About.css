@@ -1,0 +1,22 @@
+.container_sobre_mi{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.sobre_mi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container_sobre_mi_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.info{
+    width: 300px;
+}

@@ -30,7 +30,7 @@ const projectos = [
         titulo: 'Mi Proyecto Genial',
         descripcion: 'Un sitio web interactivo para aprender programación.',
         tecnologias: ['HTML', 'CSS', 'JavaScript'],
-        imagen: 'https://example.com/preview-image.jpg',
+        imagen: 'public/logo.png',
         enlace: 'https://example.com/proyecto',
     },
     {
@@ -38,7 +38,7 @@ const projectos = [
         titulo: 'Mi Proyecto Genial 2',
         descripcion: 'Un sitio web interactivo para aprender programación.',
         tecnologias: ['HTML', 'CSS', 'JavaScript'],
-        imagen: 'https://example.com/preview-image.jpg',
+        imagen: 'public/logo.png',
         enlace: 'https://example.com/proyecto',
     },
     {
@@ -46,7 +46,7 @@ const projectos = [
         titulo: 'Mi Proyecto Genial 3',
         descripcion: 'Un sitio web interactivo para aprender programación.',
         tecnologias: ['HTML', 'CSS', 'JavaScript'],
-        imagen: 'https://example.com/preview-image.jpg',
+        imagen: 'public/logo.png',
         enlace: 'https://example.com/proyecto',
     }
 ]

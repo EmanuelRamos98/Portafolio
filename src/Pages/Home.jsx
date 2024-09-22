@@ -18,12 +18,15 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Element name='about'>
+
+            <Element name='about' className='sobre_mi_section'>
                 <About />
             </Element>
-            <Element name='projectos'>
+
+            <Element name='projectos' className='proyecto_section'>
                 <Projects />
             </Element>
+
             <Element name='contac'>
                 <Contac />
             </Element>

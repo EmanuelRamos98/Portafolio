@@ -32,7 +32,10 @@ const Navbar = () => {
                 </>
             ) : (
                 <>
-                <span>Emanuel Ramos</span>
+                <span className='container_logo'>
+                        <img src="public/logo.png" alt="logo" className='logo' />
+                        Emanuel Ramos
+                    </span>
                 <div className='links'>
                     <Link to={'/'}>Home</Link>
                     <LinkInterno to='contac'>Contáctame</LinkInterno>
